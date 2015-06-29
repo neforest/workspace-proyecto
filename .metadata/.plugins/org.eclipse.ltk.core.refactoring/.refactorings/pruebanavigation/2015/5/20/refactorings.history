@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NavigationDrawerFragment.java&apos; to &apos;pruebaviewpager/src/com.example.pruebaviewpager&apos;&#x0D;&#x0A;- Original project: &apos;pruebanavigation&apos;&#x0D;&#x0A;- Destination element: &apos;pruebaviewpager/src/com.example.pruebaviewpager&apos;&#x0D;&#x0A;- Original element: &apos;com.example.pruebanavigation.NavigationDrawerFragment.java&apos;" description="Copy compilation unit" destination="=pruebaviewpager/src&lt;com.example.pruebaviewpager" element1="/src&lt;com.example.pruebanavigation{NavigationDrawerFragment.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1431672654384" units="1" version="1.0"/>
+</session>

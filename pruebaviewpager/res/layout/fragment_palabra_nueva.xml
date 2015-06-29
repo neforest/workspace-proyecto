@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/etPalabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Palabra"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etEjemplo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etDefinicion"
+        android:layout_alignRight="@+id/etDefinicion"
+        android:layout_below="@+id/etDefinicion"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Ejemplo" />
+
+    <EditText
+        android:id="@+id/etDefinicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPalabra"
+        android:layout_alignRight="@+id/etPalabra"
+        android:layout_below="@+id/etPalabra"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Definicion" />
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etEjemplo"
+        android:layout_below="@+id/etEjemplo"
+        android:layout_marginTop="18dp"
+        android:onClick="guardar"
+        android:text="Guardar" />
+
+</RelativeLayout>
