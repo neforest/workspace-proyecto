@@ -51,10 +51,12 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+		
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
@@ -113,6 +115,7 @@ public class MainActivity extends Activity {
 		int id=Integer.parseInt(((Cursor)lv1.getItemAtPosition(posicion)).getString(0));
 		String mensaje=((Cursor)lv1.getItemAtPosition(posicion)).getString(1);
 		i.putExtra("mensaje_id", id);
+		
 		i.putExtra("mensaje",mensaje);
 		System.out.println("paso el putExtra");
 		startActivity(i);
